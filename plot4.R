@@ -24,7 +24,6 @@ power_data_clean <- power_data %>%
 
 #plot on plot4.png file (not default output)
 png(filename = "plot4.png", width = 480, height = 480, units = "px")
-
 with(power_data_clean, {
     #create a 2 by 2 window of plots row filled
     par(mfrow = c(2, 2), mar = c(4, 4, 2, 1), oma = c(0, 0, 2, 0))
